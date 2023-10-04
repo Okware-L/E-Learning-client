@@ -14,7 +14,7 @@ const CoursePlayer: FC<Props> = ({ videoUrl }) => {
 
   useEffect(() => {
     axios
-      .post("https://jon-maurice-5d536875cde6.herokuapp.com/api/v1", {
+      .post("https://jon-maurice-5d536875cde6.herokuapp.com/api/v1/getVdoCipherOtp", {
         videoId: videoUrl,
       })
       .then((res) => {
