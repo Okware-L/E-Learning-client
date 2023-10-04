@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import AdminSidebar from "../../components/Admin/sidebar/AdminSidebar";
+import AdminSidebar from "../../components/Admin/Sidebar/AdminSidebar";
 import Heading from '../../../app/utils/Heading';
 import CourseAnalytics from "@/app/components/Admin/Analytics/CourseAnalytics";
 import DashboardHeader from '../../../app/components/Admin/DashboardHeader';
