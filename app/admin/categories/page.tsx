@@ -3,8 +3,8 @@ import DashboardHero from "@/app/components/Admin/DashboardHero";
 import AdminProtected from "@/app/hooks/adminProtected";
 import Heading from "@/app/utils/Heading";
 import React from "react";
-import AdminSidebar from "../../components/Admin/sidebar/AdminSidebar";
-import EditCategories from "../../components/Admin/Customization/EditCategories";
+import AdminSidebar from "@/app/components/Admin/sidebar/AdminSidebar";
+import EditCategories from "@/app/components/Admin/Customization/EditCategories";
 
 type Props = {};
 
